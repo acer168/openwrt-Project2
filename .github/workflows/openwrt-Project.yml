@@ -18,8 +18,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06-k5.4
+  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: 22.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: openwrt-Project.config
   DIY_P1_SH: openwrt-Project.sh
@@ -27,8 +27,8 @@ env:
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
+  UPLOAD_COWTRANSFER: true
+  UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
